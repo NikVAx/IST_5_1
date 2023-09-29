@@ -221,18 +221,18 @@ int main()
 
     Array arr = create_Array(input, size);
 
-    int code;
+    int operation;
     double argument;
 
     std::cout << arr.size() << std::endl;
     task5(arr);
 
-    while (std::cin >> code)
+    while (std::cin >> operation)
     {
-        if (code == 0)
+        if (operation == 0)
             break;
 
-        switch (code)
+        switch (operation)
         {
         case 1:
             std::cin >> argument;
